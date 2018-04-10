@@ -9,11 +9,12 @@
 .island
 {
    display: block;
-   max-width:70%;
+   max-width:1024px;
    margin: 0 auto;
 }
 .header
 {
+    height:20%;
     max-height:20%;
 }
 
