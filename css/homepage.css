@@ -1,0 +1,27 @@
+.title
+{
+    display: inline-block;
+}
+.form-search
+{
+   margin: 0.5em 0;
+   margin-left: 45%;
+   display: inline-block;
+}
+
+.form-search #query
+{
+   padding: 0.2em;
+}
+
+.form-search input
+{
+   color: #000000;
+}
+
+.copyright
+{
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+   text-align: right;
+}
