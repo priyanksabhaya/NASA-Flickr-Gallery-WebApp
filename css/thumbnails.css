@@ -14,27 +14,29 @@
    margin-right: 1.7rem;
 }
 
-.thumbnail
-{
-   width: 100%;
-}
-
 .thumbnails
 {
    padding: 0% 0% 0% 5%;
 }
 
+.thumbnail
+{
+   width: 100%;
+   padding: 0;
+   border-radius: 10px;
+}
+
 .thumbnail:hover,
 .thumbnail:focus
 {
-   border: 1px solid #FCB720;
+   border: 0.15rem solid #3d70b2;
    opacity: 0.7;
 }
 
 .thumbnails__pager
 {
    text-align: right;
-   margin: 0.5em 0;
+   margin: 1% 5%;
 }
 
 .thumbnails__pager li

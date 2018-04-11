@@ -49,3 +49,8 @@
 {
     color: #3d70b2;    
 }
+.copyright a:hover,
+.copyright a:focus
+{
+    color: #41d6c3;    
+}
