@@ -20,7 +20,7 @@
       font-family: 'flickrfont';
       src: url('./fonts/flickr.ttf') format('truetype');
       font-weight: bold;
-      font-style:normal;
+      font-style: normal;
     }
   </style>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -42,12 +42,12 @@
   <div class="island">
     <div class="js-gallery gallery">
       <img src="" class="js-gallery__image imgcontainer" />
-      <button class="js-gallery__arrow--left gallery__arrow gallery__arrow--left">
-        <span class="visually-hidden">Previous photo</span>
-      </button>
-      <button class="js-gallery__arrow--right gallery__arrow gallery__arrow--right">
-        <span class="visually-hidden">Next photo</span>
-      </button>
+      <div class="js-gallery__arrow--left gallery__arrow gallery__arrow--left">
+        <img src="images/left.svg" alt="Home" />
+      </div>
+      <div class="js-gallery__arrow--right gallery__arrow gallery__arrow--right">
+        <img src="images/right.svg" alt="Home" />
+      </div>
     </div>
   </div>
 

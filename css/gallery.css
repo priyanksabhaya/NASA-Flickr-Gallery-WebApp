@@ -1,102 +1,70 @@
 .gallery
 {
-   position:relative;
-   max-height:500px;
-   border: 0.05rem solid #dfe3e6;
-   border-radius: 25px;
-   background-color: #F0F3F9;
+    position:relative;
+    max-height:500px;
+    border: 0.05rem solid #dfe3e6;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    background-color: #F0F3F9;
 }
 
 .gallery img
 {
-   display: block;
-   margin: 0 auto;
-   max-width: 100%;
-   max-height: 500px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 500px;
 }
 
 .gallery__arrow
 {
-   position: absolute;
-   top: 50%;
-   display: block;
-   width: 60px;
-   height: 60px;
-   border: none;
-   border-radius: 50%;
-   background-color: #000000;
-   opacity: 0.7;
-   cursor: pointer;
-   -moz-focus-inner-border: 0;
+    position: absolute;
+    top: 50%;
+    opacity: 0.8;
+    cursor: pointer;
+    width: 5%;
+    height: 0;
+    padding: 0% 0% 5% 0%;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #464646;
+    box-shadow: 0 0 3px gray;
+}
+
+.gallery__arrow img
+{
+    display: block;
+    width: 100%;
+    padding: 15%;
+    height: auto;
 }
 
 .gallery__arrow:hover,
 .gallery__arrow:focus
 {
-   opacity: 1;
-   outline: 0;
-   outline-style: none;
-   outline-width: 0;
-}
-
-.gallery__arrow:before,
-.gallery__arrow:after
-{
-   content: '';
-   position: absolute;
-   width: 10px;
-   height: 40%;
-   background-color: #f5f7fa;
-}
-
-.gallery__arrow:before
-{
-   bottom: 12px;
-}
-
-.gallery__arrow:after
-{
-   top: 12px;
-}
-
-.gallery__arrow:hover:before,
-.gallery__arrow:focus:before,
-.gallery__arrow:hover:after,
-.gallery__arrow:focus:after
-{
-   background-color: #5596e6;
+    opacity: 1;
+    outline: 0;
+    outline-style: none;
+    outline-width: 0;
+    background: #262626;
 }
 
 .gallery__arrow--left
 {
-   left: 0.5em;
+    left: 1%;
 }
-
-.gallery__arrow--left:before
+.gallery__arrow--left img
 {
-   transform: rotate(-40deg);
-   left: 35%;
-}
-
-.gallery__arrow--left:after
-{
-   transform: rotate(40deg);
-   left: 35%;
+    margin-left: -3%;
 }
 
 .gallery__arrow--right
 {
-   right: 0.5em;
+    right:1%;
+    
 }
-
-.gallery__arrow--right:before
+.gallery__arrow--right img
 {
-   transform: rotate(40deg);
-   right: 35%;
-}
-
-.gallery__arrow--right:after
-{
-   transform: rotate(-40deg);
-   right: 35%;
+    margin-right: -3%;
 }

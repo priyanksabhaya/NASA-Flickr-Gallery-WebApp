@@ -114,13 +114,15 @@
 
         //***********************************\\Adding EventListner for Previous Photo functionality//*********************************\\
         var leftArrow = document.getElementsByClassName('js-gallery__arrow--left')[0];
-        leftArrow.addEventListener('click', function () {
+        leftArrow.addEventListener('click', function (event) {
+            event.preventDefault();
             gallery.showPrevious.bind(gallery)();
         });
 
         //************************************\\Adding EventListner for Next Photo functionality//************************************\\
         var rightArrow = document.getElementsByClassName('js-gallery__arrow--right')[0];
-        rightArrow.addEventListener('click', function () {
+        rightArrow.addEventListener('click', function (event) {
+            event.preventDefault();
             gallery.showNext.bind(gallery)();
         });
 
