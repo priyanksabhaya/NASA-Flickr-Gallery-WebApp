@@ -1,7 +1,20 @@
-.title
+.flickrB
 {
     display: inline-block;
+    color:#0063dc;
+    font-family: flickrfont;
+    font-size: 40px;
 }
+
+.flickrE
+{
+    display: inline-block;
+    color:#ff0084;
+    font-family: flickrfont;
+    margin-left:-4px;
+    font-size: 40px;    
+}
+
 .form-search
 {
    margin: 0.5em 0;
@@ -21,7 +34,18 @@
 
 .copyright
 {
-   margin-top: 0.5em;
-   margin-bottom: 0.5em;
-   text-align: right;
+    border-top: thin solid #5596E6;
+    margin-top: 1.5rem;
+    margin-bottom: 1.0rem;
+    padding-top:1.0rem;
+    display: block;
+    text-align: right;
+    width:90%;
+    margin-left:5%;
+    color: #3d70b2;
+}
+
+.copyright a
+{
+    color: #3d70b2;    
 }

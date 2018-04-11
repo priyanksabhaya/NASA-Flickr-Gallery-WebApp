@@ -10,14 +10,14 @@
         page = page > 0 ? page : 1;
         if (text.length === 0) {
             Flickr.loadNASAGallery({
-                per_page: 8,
+                per_page: 6,
                 jsoncallback: 'Website.Homepage.showPhotos',
                 page: page
             });
         } else {
             Flickr.searchText({
                 text: text,
-                per_page: 8,
+                per_page: 6,
                 jsoncallback: 'Website.Homepage.showPhotos',
                 page: page
             });

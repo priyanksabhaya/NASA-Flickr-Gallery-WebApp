@@ -9,10 +9,9 @@
 .thumbnails__list li
 {
    display: inline-block;
-   width: 11%;
-   height: 11%;
-   margin-top: 1%;
-   margin-right: 1%;
+   width: 15%;
+   margin-top: 3%;
+   margin-right: 1.7rem;
 }
 
 .thumbnail
@@ -22,7 +21,6 @@
 
 .thumbnails
 {
-   border-bottom: 3px solid #5596E6;
    padding: 0% 0% 0% 5%;
 }
 
