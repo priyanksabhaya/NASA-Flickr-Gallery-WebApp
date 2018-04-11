@@ -26,8 +26,7 @@
    border-radius: 10px;
 }
 
-.thumbnail:hover,
-.thumbnail:focus
+.thumbnail:hover
 {
    border: 0.15rem solid #3d70b2;
    opacity: 0.7;
@@ -51,10 +50,15 @@
    text-decoration: none;
 }
 
-.thumbnails__pager a.current,
-.thumbnails__pager a:hover,
-.thumbnails__pager a:focus
+.thumbnails__pager a.current
 {
-   color: #FCB720;
+    color: #5aaafa;
+    text-decoration: underline;
+    font-size: 120%;
+    font-weight: bold; 
+}
+.thumbnails__pager a:hover
+{
+   color: #5aaafa;
    text-decoration: underline;
 }
