@@ -9,7 +9,36 @@
     background-color: #F0F3F9;
 }
 
-.gallery img
+@media (max-width:1014px)
+{
+    .gallery .imgcontainer
+    {
+        max-height: 400px;
+    }
+}
+@media (max-width:814px)
+{
+    .gallery .imgcontainer
+    {
+        max-height: 340px;
+    }
+}
+@media (max-width:690px)
+{
+    .gallery .imgcontainer
+    {
+        max-height: 300px;
+    }
+}
+@media (max-width:608px)
+{
+    .gallery .imgcontainer
+    {
+        max-height: 200px;
+    }
+}
+
+.imgcontainer
 {
     display: block;
     margin: 0 auto;

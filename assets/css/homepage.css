@@ -106,8 +106,8 @@
 }
 
 .bx--btn--primary:focus {
-    border: 1px solid #f6f6f6;
-    outline: 1px solid #175d8d;
+    border: 1.5px solid #023b5c;
+    outline: 0;
 }
 
 .bx--btn--primary:active {
