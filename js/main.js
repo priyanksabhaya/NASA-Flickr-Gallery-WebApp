@@ -144,6 +144,7 @@
         });
 
         //**************************************************\\Kickstart the page//****************************************************\\
+        document.getElementById("query").value = "";
         searchPhotos(lastSearch, 1);  // lastSearch is initialized with empty String which will load the complete NASA Profile
     }
     //*****************************************************\\END of initial constructor//*********************************************************************\\

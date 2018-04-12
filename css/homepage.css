@@ -17,8 +17,7 @@
 
 .form-search
 {
-   margin: 0.5em 0;
-   margin-left: 45%;
+   margin: 1.5rem 0;
    display: inline-block;
 }
 
@@ -35,13 +34,11 @@
 .copyright
 {
     border-top: thin solid #5596E6;
-    margin-top: 1.5rem;
-    margin-bottom: 1.0rem;
     padding-top:1.0rem;
     display: block;
     text-align: right;
     width:90%;
-    margin-left:5%;
+    margin: 1.5rem 0 1.0rem 5%;
     color: #3d70b2;
 }
 
@@ -53,4 +50,75 @@
 .copyright a:focus
 {
     color: #41d6c3;    
+}
+
+.bx--text-input {
+    font-family: 'ibm-plex-sans', Helvetica Neue, Arial, sans-serif;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 200px;
+    height: 2.9rem;
+    min-width: 10rem;
+    padding: 0 1rem;
+    color: #272727;
+    background-color: #ffffff;
+    border: 1px solid #c0bfc0;
+}
+
+.bx--text-input:focus {
+    outline: 1px solid #047cc0;
+}
+
+.bx--btn {
+    font-family: 'ibm-plex-sans', Helvetica Neue, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 400;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 2rem;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in;
+    white-space: nowrap;
+    
+    display: inline-block;
+}
+
+.bx--btn--primary {
+    background-color: #047cc0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    color: #ffffff;
+}
+
+.bx--btn--primary:hover {
+    background-color: #175d8d;
+}
+
+.bx--btn--primary:focus {
+    border: 1px solid #f6f6f6;
+    outline: 1px solid #175d8d;
+}
+
+.bx--btn--primary:active {
+    background-color: #023b5c;
+}
+
+.bx--btn__icon {
+    position: relative;
+    vertical-align: middle;
+    top: -1px;
+    width: 1.5rem;
+    height: 1.5rem;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in;
+    fill: #ffffff;
 }

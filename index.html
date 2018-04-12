@@ -22,21 +22,42 @@
       font-weight: bold;
       font-style: normal;
     }
+
+    @font-face {
+      font-family: 'ibm-plex-sans';
+      src: url('./fonts/IBMPlexSans-Regular.otf') format('opentype');
+      font-weight: bold;
+      font-style: normal;
+    }
   </style>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 
 <body>
   <header class="island header">
-    <p class="flickrB">nas</p>
-    <p class="flickrE">a</p>
-    <p class="flickrB">flick</p>
-    <p class="flickrE">r</p>
-    <form class="js-form-search form-search" action="/search" method="get" role="search">
-      <label for="query">Search:</label>
-      <input type="search" name="query" id="query" placeholder="Search" />
-      <input type="submit" value="Search" />
-    </form>
+    <div class="container">
+      <div class="titlediv">
+        <p class="flickrB">nas</p>
+        <p class="flickrE">a</p>
+        <p class="flickrB">flick</p>
+        <p class="flickrE">r</p>
+      </div>
+      <div class="searchdiv">
+        <form class="js-form-search form-search" action="/search" method="get" role="search">
+          <input type="search" name="query" id="query" placeholder="Search" class="bx--text-input">
+          <!-- <input type="submit" value="Search" /> -->
+          <button type="submit" tabindex="0" class="bx--btn bx--btn--primary" type="button">
+            Search
+            <svg class="bx--btn__icon" fill-rule="evenodd" height="16" name="search--glyph" role="img" viewBox="0 0 16 16" width="16"
+              aria-label="Search">
+              <title>Search</title>
+              <path d="M6 2c2.2 0 4 1.8 4 4s-1.8 4-4 4-4-1.8-4-4 1.8-4 4-4zm0-2C2.7 0 0 2.7 0 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zm10 13.8L13.8 16l-3.6-3.6 2.2-2.2z"></path>
+              <path d="M16 13.8L13.8 16l-3.6-3.6 2.2-2.2z"></path>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
   </header>
 
   <div class="island">

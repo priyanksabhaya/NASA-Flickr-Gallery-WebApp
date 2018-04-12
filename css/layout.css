@@ -17,6 +17,43 @@
     height:20%;
 }
 
+.container
+{
+    display: block;
+    width: 100%;
+}
+
+.titlediv
+{
+    width:45%;
+    display: block;
+    float: left;
+}
+
+.searchdiv
+{
+    width:55%;
+    display: block;
+    float: right;
+    text-align: right;
+}
+
+@media (max-width: 661px)
+{
+    .searchdiv
+    {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .titlediv
+    {
+        width:100%;
+        float: none;
+        text-align: center;
+    }
+}
+
 body
 {
     background-color: #f5f7fa;
