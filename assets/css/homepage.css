@@ -63,10 +63,12 @@
     color: #272727;
     background-color: #ffffff;
     border: 1px solid #c0bfc0;
+    border-radius: 2rem;
 }
 
 .bx--text-input:focus {
-    outline: 1px solid #047cc0;
+    outline: 0;
+    border-color: #3d70b2;
 }
 
 .bx--btn {
@@ -81,9 +83,9 @@
     text-decoration: none;
     font-size: 2rem;
     font-weight: 400;
-    height: 3rem;
+    height: 3.7rem;
     padding: 0 2rem;
-    border-radius: 2rem;
+    border-radius: 3rem;
     transition-duration: 250ms;
     transition-timing-function: ease-in;
     white-space: nowrap;
