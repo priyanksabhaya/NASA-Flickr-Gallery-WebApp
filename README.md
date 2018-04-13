@@ -7,4 +7,6 @@ It uses Flickr API to develop NASA's Flicker gallery to display to display my de
 
 - Developed using Pure HTML, CSS and JS. I haven't used any nodejs technologies to keep it simple and sleek.
 
+- Hosted on GitHub Pages: https://priyanksabhaya.github.io/NASA-Flickr-Gallery-WebApp/
+
 ![Screenshot](assets/images/Screenshot.png)
